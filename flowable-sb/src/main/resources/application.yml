@@ -1,0 +1,15 @@
+server:
+  port: 7000
+  servlet:
+    context-path: /flowable
+
+spring:
+  application:
+    name: flowable
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/flowable-spring-boot?useSSL=false&allowMultiQueries=true&useUnicode=true&characterEncoding=UTF8&serverTimezone=Asia/Shanghai
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+
+
