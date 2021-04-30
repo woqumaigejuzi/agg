@@ -9,10 +9,14 @@ import java.util.Date;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class TaskVO {
+public class ProcessInstanceVO {
 
-    private String id;
-    private String name;
-    private Date createTime;
+    String processDefinitionKey;
+
+    String processDefinitionName;
+
+    String processDefinitionId;
+
+    Date startTime;
 
 }

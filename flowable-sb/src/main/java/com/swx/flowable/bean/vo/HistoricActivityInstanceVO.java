@@ -4,15 +4,17 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.util.Date;
-
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class TaskVO {
+public class HistoricActivityInstanceVO {
 
-    private String id;
-    private String name;
-    private Date createTime;
+    String processInstanceId;
+
+    String activityId;
+
+    String activityName;
+
+    Long durationInMillis;
 
 }

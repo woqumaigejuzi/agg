@@ -1,4 +1,6 @@
-create table persion
+use `flowable-spring-boot`;
+
+create table person
 (
 	id bigint(20) not null comment '主键id',
 	username varchar(30) not null unique comment '姓名',

@@ -12,5 +12,8 @@ spring:
     password: root
     driver-class-name: com.mysql.jdbc.Driver
 
-
+logging:
+  level:
+    com.swx.flowable: info
+    org.flowable: info
 
